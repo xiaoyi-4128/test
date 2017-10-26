@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello World</title>
+	<style>
+		body{
+			background-color: #CCC;
+		}
+		p{
+			font-size: 30px;
+			margin: 30 auto;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<p id="tips">Hello World</p>
+	<script>
+		window.onload = function ()
+		{
+			var tips = document.getElementById('tips');
+
+			tips.onclick = function ()
+			{
+				alert(1);
+			}
+		}
+	</script>
+</body>
+</html>
